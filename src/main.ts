@@ -13,6 +13,10 @@ async function main() {
 
   // Get the JSON webhook payload for the event that triggered the workflow
   const payload = JSON.stringify(context.payload, undefined, 2);
+  // context.repo;
+  // context.actor;
+  // context.action;
+  // context.workflow;
 
   console.log(`The event payload: ${payload}`);
 }
